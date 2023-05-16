@@ -1,0 +1,45 @@
+* {
+    outline: 3px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    background: #1f2937;
+    padding: 1em;
+}
+
+.navbar .container {
+    text-decoration: none;
+    display: flex;
+    place-content: space-between;
+}
+
+.logo {
+    size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+nav {
+    display: none;
+}
+
+nav .mobile-menu {
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
